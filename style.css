@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(201, 201, 201);
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+    background-color: grey;
+    text-size-adjust: 100px;
+    letter-spacing: 50  px;
+    flex-direction: display;
+    
+}
+h2{
+    text-align: center;
+
+}
+.grid-floats{
+    text-align: center;
+    margin: 10px;
+}
+.graid-flex{
+
+}
+.grid-item{ 
+    border-style: solid;
+    background-color: honeydew;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+li.grid-item{
+    padding: 10px;
+    margin: inherit;
+    list-style-type: none;
+    text-align: center;
+}
+
+
+p{
+    text-align: justify;
+}
+main aside.graid-floats{
+    float:left;
+}
+img{
+    max-width: 200px;
+}
+
+main aside.graid-flex{
+    flex-grow: 0px;
+    flex-shrink: 0px;
+    flex-basis: auto;
+}
