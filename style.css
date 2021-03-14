@@ -7,7 +7,6 @@ h1{
     background-color: grey;
     text-size-adjust: 100px;
     letter-spacing: 50  px;
-    flex-direction: display;
     
 }
 h2{
@@ -40,7 +39,7 @@ p{
     text-align: justify;
 }
 main aside.graid-floats{
-    float:left;
+    float:inline-start;
 }
 img{
     max-width: 70%;
